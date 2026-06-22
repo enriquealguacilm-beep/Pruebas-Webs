@@ -1,0 +1,29 @@
+p {
+  text-wrap: pretty;
+}
+
+.section-1 {
+  background-image: url('./images/pic01.webp');
+  background-size: cover;
+  background-position: center;
+  padding-block: 150px;
+
+  @media (width >= 768px) {
+    padding-block: 270px;
+  }
+}
+
+.section-2 {
+  .col {
+    min-inline-size: 19.6875rem;
+    max-inline-size: 40.625rem;
+  }
+
+  img {
+    width: 100px;
+  }
+}
+
+.section-3 img {
+  block-size: 180px;
+}

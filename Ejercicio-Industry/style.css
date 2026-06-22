@@ -1,0 +1,56 @@
+.web-header {
+  background-image:
+    linear-gradient(rgb(0 0 0 / 70%)), url('./images/background1.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  img {
+    max-block-size: 622px;
+  }
+}
+.line {
+  inline-size: 100px;
+}
+
+.section-2 {
+  h2 {
+    padding-block-start: 10rem;
+  }
+  .col {
+    min-inline-size: 18.75rem;
+  }
+  .bg-1 {
+    background-image:
+      linear-gradient(rgb(0 0 0 / 45%)), url('./images/background2.webp');
+    background-size: cover;
+  }
+  .bg-2 {
+    background-image:
+      linear-gradient(rgb(0 0 0 / 45%)), url('./images/background3.webp');
+    background-size: cover;
+  }
+  .bg-3 {
+    background-image:
+      linear-gradient(rgb(0 0 0 / 45%)), url('./images/background4.webp');
+    background-size: cover;
+  }
+}
+
+.section-6 {
+  background-image:
+    linear-gradient(rgb(0 0 0 / 45%)), url('./images/background13.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-8 {
+  p {
+    padding: 2rem 1rem 4rem;
+  }
+}
+
+.section-9 {
+  background-color: #171717;
+}
